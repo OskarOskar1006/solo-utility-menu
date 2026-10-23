@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "solo_utility_menu",
+  "version": "${version}",
+  "name": "Solo Utility Menu",
+  "description": "A single-player utility menu for Minecraft.",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.oskar.soloutilitymenu.SoloUtilityMenu"
+    ],
+    "client": [
+      "dev.oskar.soloutilitymenu.SoloUtilityMenuClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.164.0+26.3"
+  }
+}
